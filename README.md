@@ -1,6 +1,6 @@
 ![banner](./banner.JPG)
 
-### Hello World
+## If I'm shining everybody gonna shine ♫
 
 Hi, I’m Simone Odegard (she/her). I’m a full stack JavaScript developer and I lead competitive dance teams. I believe that if you work hard, you will be successful even if you sometimes feel incapable. I want to inspire other young women to follow their dreams and be confident in their ability to succeed in tech.
 
@@ -9,6 +9,8 @@ As a dance coach, I have been responsible for creating award winning teams. I lo
 - 🔭 I’m currently working on rebuilding Recipe Roulette in React
 - 🌱 I’m currently learning data structures and algorithms
 - 📫 How to reach me: Simone.Odegard@gmail.com
+
+![Simone's GitHub stats](https://github-readme-stats.vercel.app/api?username=SimoneOdegard&show_icons=true&theme=buefy)
 
 <!--
 **SimoneOdegard/SimoneOdegard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
