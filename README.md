@@ -10,12 +10,10 @@ As a dance coach, I have been responsible for creating award winning teams. I lo
 - 🌱 I’m currently learning data structures and algorithms
 - 📫 How to reach me: Simone.Odegard@gmail.com
 
-<p align="center">
+<div style="text-align:center">
 
-![Simone's GitHub stats](https://github-readme-stats.vercel.app/api?username=SimoneOdegard&show_icons=true&theme=buefy)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SimoneOdegard&layout=compact&theme=buefy)](https://github.com/SimoneOdegard/github-readme-stats)
+![Simone's GitHub stats](https://github-readme-stats.vercel.app/api?username=SimoneOdegard&show_icons=true&theme=buefy) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SimoneOdegard&layout=compact&theme=buefy)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SimoneOdegard&color=ed7d8b)
 
-</p>
+</div>
