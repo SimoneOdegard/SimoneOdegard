@@ -1,6 +1,6 @@
 ![banner](./banner.JPG)
 
-## If I'm shining everybody gonna shine ♫
+## ✨ If I'm shining everybody gonna shine ♫
 
 Hi, I’m Simone Odegard (she/her). I’m a full stack JavaScript developer and I lead competitive dance teams. I believe that if you work hard, you will be successful even if you sometimes feel incapable. I want to inspire other young women to follow their dreams and be confident in their ability to succeed in tech.
 
@@ -10,19 +10,12 @@ As a dance coach, I have been responsible for creating award winning teams. I lo
 - 🌱 I’m currently learning data structures and algorithms
 - 📫 How to reach me: Simone.Odegard@gmail.com
 
+<p align="center">
+
 ![Simone's GitHub stats](https://github-readme-stats.vercel.app/api?username=SimoneOdegard&show_icons=true&theme=buefy)
 
-<!--
-**SimoneOdegard/SimoneOdegard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SimoneOdegard&layout=compact&theme=buefy)](https://github.com/SimoneOdegard/github-readme-stats)
 
-Here are some ideas to get you started:
+![Profile Views](https://komarev.com/ghpvc/?username=SimoneOdegard&color=ed7d8b)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</p>
