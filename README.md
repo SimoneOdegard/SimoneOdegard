@@ -1,4 +1,4 @@
-![banner](./banner.JPG)
+![banner](./assets/banner.JPG)
 
 ## 🌺 Aloha folks!
 
