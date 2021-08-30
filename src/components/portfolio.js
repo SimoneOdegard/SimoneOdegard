@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
+import Box from '@material-ui/core/Box';
 
 // images //
 import Busmall from '../assets/busmall.png';
@@ -19,12 +20,17 @@ import StoreFront from '../assets/storeFront.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    margin: 5,
+    display: 'inline-block',
+    maxWidth: 300,
+    flexGrow: 1,
+    padding: theme.spacing(2)
   },
   media: {
     height: 140,
   },
   chip: {
+    marginTop: 10,
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',
@@ -50,17 +56,21 @@ function Portfolio() {
               Store Front
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              A mock e-commerce website where the user can add items to their cart, remove items, and create a mock purchase.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  A mock e-commerce website where the user can add items to their cart, remove items, and create a mock purchase.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="REACT" />
+                    <Chip size="small" label="REDUX" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="SCSS" />
+                    <Chip size="small" label="MONGODB" />
+                    <Chip size="small" label="EXPRESS" />
+                    <Chip size="small" label="CORS" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="REACT" />
-              <Chip size="small" label="REDUX" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="SCSS" />
-              <Chip size="small" label="MONGODB" />
-              <Chip size="small" label="EXPRESS" />
-              <Chip size="small" label="CORS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -84,16 +94,20 @@ function Portfolio() {
               RESTY
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              RESTy is a swagger.io clone. It allows you to use GET, POST, PUT, DELETE to test your APIs.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  RESTy is a swagger.io clone. It allows you to use GET, POST, PUT, DELETE to test your APIs.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="REACT" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="CSS" />
+                    <Chip size="small" label="MONGODB" />
+                    <Chip size="small" label="EXPRESS" />
+                    <Chip size="small" label="CORS" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="REACT" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="CSS" />
-              <Chip size="small" label="MONGODB" />
-              <Chip size="small" label="EXPRESS" />
-              <Chip size="small" label="CORS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -117,17 +131,23 @@ function Portfolio() {
               Genre Room
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              A MERN stack application where users are recommended a random movie. Either fully randomized or randomized by genre.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  A MERN stack and CRUD movie generator application that provides the user movies based on genre. It retrieves movie recommendations from The Movie Database API.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="REACT" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="CSS" />
+                    <Chip size="small" label="MONGODB" />
+                    <Chip size="small" label="AXIOS" />
+                    <Chip size="small" label="EXPRESS" />
+                    <Chip size="small" label="CORS" />
+                    <Chip size="small" label="NETLIFY" />
+                    <Chip size="small" label="HEROKU" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="REACT" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="CSS" />
-              <Chip size="small" label="MONGODB" />
-              <Chip size="small" label="AXIOS" />
-              <Chip size="small" label="EXPRESS" />
-              <Chip size="small" label="CORS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -151,15 +171,19 @@ function Portfolio() {
               City Explorer
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              A city search app that displays the map of the location, weather for the up coming 10 days, and movies about that city.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  A city search app that displays the map of the location, weather for the up coming 10 days, and movies about that city.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="REACT" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="CSS" />
+                    <Chip size="small" label="EXPRESS" />
+                    <Chip size="small" label="CORS" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="REACT" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="CSS" />
-              <Chip size="small" label="EXPRESS" />
-              <Chip size="small" label="CORS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -183,13 +207,17 @@ function Portfolio() {
               Recipe Roulette
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              A random meal recipe generator app that provides the user with an image, meal recipe, and nutrition facts.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  A random meal recipe generator app that provides the user with an image, meal recipe, and nutrition facts.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="HTML" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="CSS" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="HTML" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="CSS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -213,13 +241,17 @@ function Portfolio() {
               Bus Mall
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Random images are generated for the user to vote on. After voting, the user can see their favorites displayed in a chart.
+              <div style={{ height: 200 }}>
+                <Box component="div" display="block" my={2} overflow="auto">
+                  Random images are generated for the user to vote on. After voting, the user can see their favorites displayed in a chart.
+                  <div className={classes.chip} >
+                    <Chip size="small" label="HTML" />
+                    <Chip size="small" label="JAVASCRIPT" />
+                    <Chip size="small" label="CSS" />
+                  </div>
+                </Box>
+              </div>
             </Typography>
-            <div className={classes.chip} >
-              <Chip size="small" label="HTML" />
-              <Chip size="small" label="JAVASCRIPT" />
-              <Chip size="small" label="CSS" />
-            </div>
           </CardContent>
         </CardActionArea>
         <CardActions>
